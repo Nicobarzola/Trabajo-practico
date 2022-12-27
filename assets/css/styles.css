@@ -1,0 +1,330 @@
+body{
+    margin:0;
+    background-image: url(../css/imagenes/fondo-madera-blanco-textura-tablon_64749-1885.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background{
+    background-image: url(../css/imagenes/fondo-madera-blanco-textura-tablon_64749-1885.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 40px;
+}
+.navegacion {
+    list-style-type: none;
+    text-align: center;
+    font-size: 10px;
+}
+.navegacion ul li {
+    display: inline-block;
+    width: 10%;
+    margin:7px;
+}
+.navegacion a {
+    text-decoration: none;
+}
+h2{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 30px;
+}
+.buzonike{
+    width: 330px;
+    height: 265px;
+    background-image: url(../css/imagenes/64b693489276a894eb93fe61e8ef6aa8.jpg);
+    margin: 0 auto;
+}
+.zapasnike{
+    width: 245px;
+    height: 200px;
+    background-image: url(../css/imagenes/descarga.jpg);
+    margin: 0 auto;
+}
+
+p{
+    font-size: 23px;
+}
+
+footer{
+    width: 100%;
+    background-color: bisque;
+    margin-bottom: 10px;
+}
+.red{
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    display: inline-block;
+}
+.facebook{
+    background-image: url(../css/imagenes/face-01.png);
+}
+.instagram{
+    background-image: url(../css/imagenes/insta-01.png);
+}
+
+.cartilla {
+    width: 1200px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+} 
+.cartilla3 {
+    width: 1200px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+}
+
+.card{
+    display: inline-block;
+    width: 250px;
+    height: 250px;    
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+.card2{
+    display:inline-block;
+    width: 450px;
+    height: 400px;   
+    background-repeat: no-repeat;
+}
+
+.remera{
+    background-image: url(../css/imagenes/images6.jpg);
+}
+.buzo1{
+    background-image: url(../css/imagenes/D_NQ_NP_720929-MLA50928779263_072022-Y.jpg);
+}
+.buzo2{
+    background-image: url(../css/imagenes/images2.jpg);
+}
+
+.ropa1{
+    background-image: url(../css/imagenes/images5.jpg);
+}
+
+.ropa2{
+    background-image: url(../css/imagenes/d63c9fd97c07fd47bef0828cc685b888-catalog.jpg);
+}
+
+.ropa3{
+    background-image: url(../css/imagenes/images4.jpg);
+}
+
+.equipo{
+    background-image: url(../css/imagenes/istockphoto-1301201223-612x612.jpg);
+    width: 500px;
+    height: 500px;
+    max-width: 500px;
+    max-height: 350px;
+}
+
+.rebaja1{
+    background-image: url(../css/imagenes/41PnrUb8ldL._AC_.jpg);
+}
+.rebaja2{
+    background-image: url(../css/imagenes/71sUBRVlpiL._AC_SX395_.jpg);
+}
+.rebaja3{
+    background-image: url(../css/imagenes/621e501f31ab8-569550-280x280.jpg);
+    
+}
+
+
+#contenedor{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows:repeat(3,auto) ;
+    grid-template-areas:
+    "cabecera"
+    "productos"
+    "pie"
+    ;
+
+}
+#cabecera{
+    grid-area: cabecera;
+}
+.productosInicio{
+    grid-area: productos;
+}
+#pie{
+    grid-area: pie;
+}
+.menu{
+    margin: 10px;
+    font-size: 10px;
+    gap: 10px;
+
+}
+.logo{
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
+
+}
+.text{
+    font-size: 20px;
+}
+.parrafo{
+    font-size: 20px;
+}
+
+@media screen and (min-width:768px){
+    .logo{
+        font-size: 35px;
+        padding-top: 30px;
+    }
+    .menu{
+        font-size: 20px;
+    }
+    .text{
+        font-size: 30px;
+    }
+    .parrafo{
+        font-size: 30px;
+    }
+}
+.cartilla{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 3,auto;
+    grid-area: 
+    "1"
+    "2"
+    "3"
+    ;
+}
+.remera{
+    grid-area: 1;
+}
+.buzo1{
+    grid-area: 2;
+}
+.buzo2{
+    grid-area: 3;
+}
+.cartilla3{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 3,auto;
+    grid-area: 
+    "1"
+    "2"
+    "3"
+    ;
+}
+.ropa1{
+    grid-area: 1;
+}
+.ropa2{
+    grid-area: 2;
+}
+.ropa3{
+    grid-area: 3;
+}
+.cartilla2{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 3,auto;
+    grid-area: 
+    "1"
+    "2"
+    "3"
+    ;
+    width: 60%;
+    height: 40%;
+}
+.rebajas1{
+    grid-area: 1;
+}
+.rebajas2{
+    grid-area: 2;
+}
+.rebajas3{
+    grid-area: 3;
+}
+
+
+@media screen and (min-width:768px){
+    .logo{
+        font-size: 35px;
+        padding-top: 30px;
+    }
+    .menu{
+        font-size: 20px;
+    }
+    .text{
+        font-size: 30px;
+    }
+    .parrafo{
+        font-size: 30px;
+    }
+    .cartilla3{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 2, auto;
+        display: flex;
+        
+    }
+    .ropa1{
+        grid-area: 1;
+    }
+    .ropa2{
+        grid-area: 2;
+    }
+    .ropa3{
+        grid-area: 3;
+    }
+    .cartilla{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 2, auto;
+        display: flex;
+        
+    }
+    .remera{
+        grid-area: 1;
+    }
+
+    .buzo1{
+        grid-area: 2;
+    }
+    .buzo2{
+        grid-area: 3;
+    }
+    
+}
+
+@media screen and (min-width:1280px){
+    .cartilla{
+        display: flex;
+        justify-content:center;
+    }
+    .cartilla3{
+        display: flex;
+        justify-content:center;
+    }
+    .cartilla2{
+
+    }
+
+}
+.informacion{
+    font-size: 15px;
+}
